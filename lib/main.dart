@@ -17,11 +17,11 @@ class Homepage extends StatelessWidget {
           leading: const Padding(
             padding: EdgeInsets.all(5.0),
             child: CircleAvatar(
+              backgroundColor: Colors.white,
               child: Icon(
                 Icons.person,
                 size: 40,
               ),
-              backgroundColor: Colors.white,
             ),
           ),
           flexibleSpace: SafeArea(
